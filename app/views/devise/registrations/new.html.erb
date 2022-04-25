@@ -6,8 +6,7 @@
         <%= render "devise/shared/error_messages", resource: resource %>
         <div class="field">
           <%= f.label :name %><br />
-          <%= f.name_field :name, autofocus: true, class: "name" %>
-        </div>
+          <%= f.text_field :name, autofocus: true, class: "name" %>
         <div class="field">
           <%= f.label :email %><br />
           <%= f.email_field :email, autofocus: true, class: "email" %>
